@@ -1,0 +1,16 @@
+<package>
+  <description brief="avr_bridge_unittest">
+
+     avr_bridge_unittest
+
+  </description>
+  <author>asher</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/avr_bridge_unittest</url>
+  <depend package="avr_bridge"/>
+  <depend package="rospy"/>
+
+</package>
+
+

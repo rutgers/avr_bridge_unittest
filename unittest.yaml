@@ -1,0 +1,22 @@
+port: /dev/ttyUSB0
+name: unittest
+publish: #list of published topics
+ string_response:
+  type: std_msgs/String
+ uint16_response:
+  type: std_msgs/UInt16
+ int32_response:
+  type: std_msgs/Int32
+ float32_response:
+  type: std_msgs/Float32
+  
+subscribe:
+ string_call:
+  type: std_msgs/String
+ uint16_call:
+  type: std_msgs/UInt16
+ int32_call:
+  type: std_msgs/Int32
+ float32_call:
+  type: std_msgs/Float32
+  
